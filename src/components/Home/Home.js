@@ -73,7 +73,7 @@ const Home = (props) => {
   return (
     <div>
       <div className="main-text">
-        <span>Home component</span>
+        <span>Hello, This is an e-commerce app</span>
       </div>
       <div className="header">
         <span>{props.cart ? props.cart.length : 0}</span>
