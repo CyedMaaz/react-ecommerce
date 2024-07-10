@@ -1,0 +1,54 @@
+/* .App {
+    text-align: center;
+}
+
+.cart-wrapper {
+    height: 100px;
+    width: 500px;
+    border: 1px solid;
+    margin-left: 7rem;
+}
+
+.btn-wrapper button {
+    background: red;
+    border: 0px;
+    border-radius: 4px;
+    padding: 11px;
+    color: white;
+    margin-top: 2rem;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.item {
+    float: left;
+    display: inline-block;
+}
+
+.img-wrapper img {
+    margin-top: 1rem;
+}
+
+.text-wrapper span {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title {
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+
+.price {
+    margin-right: 2rem;
+}
+
+.header img {
+    width: 40px;
+    height: 40px;
+    justify-content: flex-end;
+    display: flex;
+    position: relative;
+    left: 96%;
+    margin-top: -2rem;
+} */
