@@ -69,10 +69,10 @@ import "./Home.css";
 import iphone13 from "../../Assets/iphone13.jpeg";
 import product3 from "../../Assets/product3.png";
 import product33 from "../../Assets/product33.png";
-import iphone14 from "../../Assets/iphone14.png"; // Example of another product image
+import iphone14 from "../../Assets/iphone14.png";   
 import iconcart from "../../Assets/icon-cart.png";
 import { useDispatch, useSelector } from "react-redux";
-import { addToCart } from "../../services/Action/action"; // Import your action creator
+import { addToCart } from "../../services/Action/action"; 
 
 const Home = () => {
   const [cartCounter, setCartCounter] = useState(0); // State to manage cart item count
@@ -85,8 +85,8 @@ const Home = () => {
       name: name,
       price: price,
     };
-    dispatch(addToCart(newItem)); // Dispatch the action creator with the item data
-    setCartCounter(cartCounter + 1); // Update cart counter
+    dispatch(addToCart(newItem)); 
+    setCartCounter(cartCounter + 1); 
   };
 
   return (
@@ -148,7 +148,6 @@ const Home = () => {
         </div>
       </div>
     </div>
-    // </div>
   );
 };
 
